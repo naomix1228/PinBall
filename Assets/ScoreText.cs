@@ -34,6 +34,15 @@ void Update()
         {
             this.score += 20;
         }
+        else if (other.transform.tag == "LargeCloudTag")
+        {
+            this.score += 30;
+        }
+        else if (other.transform.tag == "SmallCloudTag")
+        {
+            this.score += 5;
+
+        }
     }
 }
 
